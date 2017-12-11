@@ -63,6 +63,15 @@ article header li div {
     border-radius: 0.2em;
 }
 
+#interviews ol {
+    list-style: decimal;
+    padding: 1em;
+}
+
+#interviews li {
+    padding: 0.3em;
+}
+
 #persona p {
     margin: 0;
 }
@@ -142,7 +151,6 @@ article header li div {
 
 #idegrundlag ul li {
     list-style-type: circle;
-
 }
 
 #ide_grundlag ul li li {
