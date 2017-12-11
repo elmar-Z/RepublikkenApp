@@ -163,6 +163,8 @@ article header li div {
 }
 
 .table_wrap {
+    display: flex;
+    flex-wrap: wrap;
     width: 97%;
     margin: 0 auto;
     overflow-x: scroll;
