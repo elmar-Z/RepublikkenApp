@@ -24,12 +24,14 @@
     max-width: 16%;
     min-height: 1.5em;
     min-width: 180px;
+    text-align: center;
 }
 
 .credits a {
-    font-size: 0.9em;
+    font-size: 0.7em;
     font-style: italic;
     text-decoration: underline;
+    text-align: center;
 }
 
 /* !important overskriver tidligere angivelse i styles.css */
