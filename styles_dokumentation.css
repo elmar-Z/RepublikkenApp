@@ -80,18 +80,25 @@ article header li div {
 #persona #persona_container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
-#persona #persona_info {
-    margin: 1em;
-}
-
-#persona .personaimg {
-    width: 20vw;
-    height: 20vw;
+#persona .persona_asger {
+    width: 37vw;
+    height: 37vw;
     background-size: 100%;
     margin: 1em 0 1em 0;
-    background-image: url(images/jonathan.jpg);
+    background-image: url(images/persona_asger.jpg);
+    background-repeat: no-repeat;
+}
+
+#persona .persona_carsten {
+    width: 37vw;
+    height: 37vw;
+    background-size: 100%;
+    margin: 1em 0 1em 0;
+    background-image: url(images/persona_carsten.jpg);
+    background-repeat: no-repeat;
 }
 
 #persona_info ul {
