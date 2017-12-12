@@ -11,7 +11,6 @@
 /* */
 
 .credits ul {
-    list-style-type: none;
     display: flex;
     flex-basis: 300px;
     flex-wrap: wrap;
@@ -23,7 +22,7 @@
     word-break: break-all;
     max-width: 16%;
     min-height: 1.5em;
-    min-width: 180px;
+    min-width: 160px;
     text-align: center;
 }
 
@@ -34,12 +33,14 @@
     text-align: center;
 }
 
-/* !important overskriver tidligere angivelse i styles.css */
-
 .credits img {
-    width: 50%;
-    margin: 1em;
+    width: 9vw;
+    margin: 0.5em;
     border-radius: 50%;
+}
+
+article header li div {
+    text-align: center;
 }
 
 #experience_maps ol {
@@ -52,10 +53,6 @@
 
 #experience_maps li {
     width: 33%;
-}
-
-article header li div {
-    text-align: center;
 }
 
 #experience_maps li img {
@@ -112,15 +109,16 @@ article header li div {
     background-repeat: no-repeat;
 }
 
-#persona_info ul {
-    list-style-type: disc;
-    margin: 1em 0 0 2em;
+#virksomhedsbeskrivelse .vaerdier_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
 }
 
-#persona_info b {
-    text-transform: uppercase;
+#virksomhedsbeskrivelse ul {
+    padding: 1em;
 }
-
 
 #interview ul {
     list-style-type: disc;
