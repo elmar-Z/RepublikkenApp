@@ -4,7 +4,7 @@
 .article_sections_divED {
     border-radius: 0.3em;
     border: 0.2em solid rgba(214, 90, 89, 0.5);
-    background: rgb(234, 80, 69);
+    background: #D57778;
     margin: 1em 0;
 }
 
@@ -28,7 +28,7 @@
 
 .credits a {
     font-size: 0.7em;
-    font-style: italic;
+    color: #D57778;
     text-decoration: underline;
     text-align: center;
 }
@@ -37,6 +37,8 @@
     width: 9vw;
     margin: 0.5em;
     border-radius: 50%;
+    border: solid;
+    border-color: #D57778;
 }
 
 article header li div {

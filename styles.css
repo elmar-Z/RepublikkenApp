@@ -15,7 +15,7 @@ body {
     max-width: 1920px;
     position: relative;
     min-height: 100%;
-    background: rgb(235, 147, 141);
+    background-color: rgba(213, 119, 120, 0.5);
     font-weight: 300;
 }
 
@@ -53,13 +53,12 @@ h2 {
     font-size: 3vw;
     margin: 1em 3em;
     padding: 0.5em 0;
-
-    background-color: rgb(235, 114, 106);
+    background-color: rgba(45, 53, 98, 0.8);
     text-align: center;
     text-transform: uppercase;
     border-style: solid;
     border-radius: 1em;
-    border-color: rgb(235, 147, 141);
+    border-color: rgb(45, 53, 98);
 }
 
 h3 {
@@ -88,7 +87,7 @@ a h3 {
 ***************************** */
 
 #site_header {
-    background: rgb( 235, 114, 106);
+    background: rgba(213, 119, 120, 0.7);
     padding: 2.5em 0 0.5em 0;
     color: #fff;
     text-align: center;
@@ -219,7 +218,7 @@ section header nav a {
 }
 
 #burger_menu a:hover {
-    color: rgb(234, 80, 69);
+    color: rgb(174, 191, 205);
 }
 
 /*
@@ -310,7 +309,7 @@ section {
     0% {
         width: 5em;
         height: 1.5em;
-        background: rgba(235, 147, 141, 0.1);
+        background: rgba(174, 191, 205, 0.1);
         border: 0.2em solid rgba(234, 80, 69, 0);
     }
     50% {
