@@ -38,23 +38,19 @@ p {
 /**** TEKSTFORMATTERING ****/
 
 section header h1 {
-    font-size: 2.5em;
+    font-family: "Helvetica Neue Condensed", Helvetica, Verdana, Arial, sans-serif;
+    font-size: 4vw;
+    text-transform: uppercase;
     /*    padding: 0.5em;*/
 }
 
 #site_header h1 {
     font-family: "Helvetica Neue Condensed", Helvetica, Verdana, Arial, sans-serif;
-    font-size: 3em;
-}
-
-h1 {
-    font-size: 1.5em;
-    text-transform: uppercase;
-    /*    padding: 1em 0 1em 0;*/
+    font-size: 5vw;
 }
 
 h2 {
-    font-size: 1.6em;
+    font-size: 3vw;
     margin: 1em 3em;
     padding: 0.5em 0;
 
@@ -67,7 +63,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.2em;
+    font-size: 2vw;
     padding: 1em 1em;
     text-transform: uppercase;
 }
