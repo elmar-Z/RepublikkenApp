@@ -198,9 +198,8 @@ article header li div {
     padding: 0;
 }
 
-#koncept_praktik ol {
-    margin: 1em 0 1em 2em;
-    list-style-type: decimal;
+#konklusion h3 {
+    text-align: center;
 }
 
 .table_wrap {
