@@ -312,7 +312,7 @@ section {
 #burger_menu:hover {
     animation: menu_open 0.3s linear forwards;
     cursor: pointer;
-    color: rgb(150, 200, 250);
+    color: rgb(174, 191, 205);
 }
 
 .menu_close {
