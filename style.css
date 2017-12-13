@@ -1,0 +1,220 @@
+.nav.navbar-nav.navbar-right li a {
+
+    color: white;
+    font-size: 16px;
+
+}
+
+p {
+    font-size: 20px;
+}
+
+.navbar-default {
+    padding: 0 6vw 0 6vw;
+    background-color: #2D3562;
+    border-color: transparent;
+    border-radius: 0px;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-nav > li > a, .navbar-brand {
+    padding-top:25px !important;
+    padding-bottom:25px !important;
+    height: 70px;
+}
+
+.navbar img {
+    height: 30px;
+    margin-top: -5px;
+
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #AEBFCD;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    margin-top: 18px;
+
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+    border-color: white;
+}
+
+.navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+/****************** FORSIDE ********************/
+
+#forside {
+    margin-top: -20px;
+    background-color: white;
+}
+
+#forside {
+    width: 100vw;
+    height: 56vw;
+    background-image: url(img/republikken/splash/splash_republikken-assets/splash_republikken.jpg);
+    background-size: 100vw;
+}
+
+/****************** FORSIDE SLUT ********************/
+
+/****************** OM ********************/
+
+#om {
+    background-color: white;
+    padding: 25px 0 50px 0;
+}
+
+#om .img{
+    max-width: 10vw;
+}
+
+#om h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+#om p {
+    text-align: left;
+}
+
+/****************** OM SLUT********************/
+
+/****************** Funktioner ********************/
+
+
+#funktioner {
+    background-color: #AEBFCD;
+    padding: 25px 0 0 0;
+}
+
+#funktioner .container-fluid {
+    padding: 0px;
+}
+
+#funktioner h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+@media (min-width: 991px) {
+    .container-fluid .img, [style] {
+   padding: 0px !important;
+}
+
+    }
+
+@media (max-width: 991px) {
+    .container-fluid [style] {
+   margin: 0 !important;
+}
+    }
+
+
+
+
+
+
+
+/****************** Funktioner SLUT********************/
+
+/****************** download ********************/
+
+#download {
+    background-color: white;
+    padding: 25px 0 50px 0;
+}
+
+#download p {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#download h2 {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+#download img {
+    max-width: 200px;
+    margin: auto;
+}
+
+/****************** download SLUT********************/
+
+/****************** mere info ********************/
+
+#mere_info {
+    background-color: #589EA1;
+    padding: 25px 0 50px 0;
+    color: white;
+}
+
+#mere_info p {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#mere_info h2 {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+#mere_info img {
+    max-width: 200px;
+    margin: auto;
+}
+
+.btn {
+    background-color: #2D3562;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #AEBFCD;
+}
+
+/****************** mere info SLUT********************/
+
+
+/******************FOOTER********************/
+
+footer .container-fluid {
+    padding: 25px 0 25px 0;
+    background-color: #2D3562;
+    text-align: center;
+}
+
+footer .container-fluid p {
+    color: white;
+}
+
+/******************FOOTER slut********************/
+
+
+
+
+
