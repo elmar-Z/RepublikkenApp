@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -15,7 +16,7 @@ body {
     max-width: 1920px;
     position: relative;
     min-height: 100%;
-    background-color: rgba(213, 119, 120, 0.5);
+    background-color: #fff;
     font-weight: 300;
 }
 
@@ -87,7 +88,7 @@ a h3 {
 ***************************** */
 
 #site_header {
-    background: rgba(213, 119, 120, 0.7);
+    background: #AEBFCD;
     padding: 2.5em 0 0.5em 0;
     color: #fff;
     text-align: center;
@@ -116,9 +117,9 @@ section header nav a:hover {
 article section header {
     text-align: center;
     border-style: solid;
-    border-color: rgb(235, 114, 106);
+    border-color: rgb(45, 53, 98);
     border-radius: 4vw;
-    background-color: rgb(235, 147, 141);
+    background-color: rgba(45, 53, 98, 0.8);
     margin: 1em 3em;
 }
 
@@ -148,8 +149,11 @@ article {
 }
 
 article img {
-    max-width: 100%;
+/*
+    max-width: 90%;
     min-width: 20%;
+*/
+    padding: 2vw;
 }
 
 footer p b {
@@ -171,7 +175,7 @@ footer {
 #burger_menu {
     font-size: 2em;
     color: #fff;
-    background-color: rgba(235, 114, 106, 0.2);
+    background-color: rgba(174, 191, 205, 0.2);
     height: 1.5em;
     overflow: hidden;
     text-align: center;

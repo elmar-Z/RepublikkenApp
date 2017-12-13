@@ -3,8 +3,8 @@
 #ide3,
 .article_sections_divED {
     border-radius: 0.3em;
-    border: 0.2em solid rgba(214, 90, 89, 0.5);
-    background: #D57778;
+    border: 0.05em solid rgba(45, 53, 98, 0.5);
+    background-color: #AEBFCD;
     margin: 1em 0;
 }
 
@@ -26,10 +26,9 @@
     text-align: center;
 }
 
-.credits a {
+.credits p {
     font-size: 0.7em;
-    color: #D57778;
-    text-decoration: underline;
+    color: #AEBFCD;
     text-align: center;
 }
 
@@ -37,13 +36,51 @@
     width: 9vw;
     margin: 0.5em;
     border-radius: 50%;
-    border: solid;
-    border-color: #D57778;
+    border: solid rgba(45, 53, 98, 0.5);
+    padding: 0;
 }
 
 article header li div {
     text-align: center;
 }
+/*
+#exp_img {
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.exp_img1 {
+    flex-grow: 1;
+    background-image: url(images/experiencemap/kundens_udtalelser.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 33px;
+    background-repeat: no-repeat;
+    transform: rotate(90deg);
+}
+
+.exp_img2 {
+    flex-grow: 1;
+    background-image: url(images/experiencemap/republikken_undersoegelse.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 33px;
+    background-repeat: no-repeat;
+     transform: rotate(90deg);
+}
+
+.exp_img3 {
+    flex-grow: 1;
+    background-image: url(images/experiencemap/testpersoner.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 33px;
+    background-repeat: no-repeat;
+     transform: rotate(90deg);
+}
+*/
 
 #experience_maps ol {
     list-style-type: none;
@@ -56,6 +93,7 @@ article header li div {
 #experience_maps li {
     width: 33%;
 }
+
 
 #experience_maps li img {
     width: 100%;
@@ -95,7 +133,7 @@ article header li div {
 
 #persona .persona_asger {
     width: 37vw;
-    height: 37vw;
+    height: 27vw;
     background-size: 100%;
     margin: 1em 0 1em 0;
     background-image: url(images/persona_asger.jpg);
@@ -104,7 +142,7 @@ article header li div {
 
 #persona .persona_carsten {
     width: 37vw;
-    height: 37vw;
+    height: 27vw;
     background-size: 100%;
     margin: 1em 0 1em 0;
     background-image: url(images/persona_carsten.jpg);
@@ -200,3 +238,10 @@ table td {
 article img {
     width: 100%;
 }
+
+/*
+#storyboard img {
+    width: 80vw;
+
+}
+*/
