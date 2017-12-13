@@ -182,6 +182,7 @@ p {
 
 #mere_info p {
     text-align: center;
+    text-transform: uppercase;
     padding-bottom: 20px;
 }
 
