@@ -2,6 +2,8 @@
 
     color: white;
     font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
 
 }
 
@@ -20,9 +22,10 @@ p {
     color: white;
 }
 
-.navbar-nav > li > a, .navbar-brand {
-    padding-top:25px !important;
-    padding-bottom:25px !important;
+.navbar-nav > li > a,
+.navbar-brand {
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
     height: 70px;
 }
 
@@ -86,7 +89,7 @@ p {
     padding: 25px 0 50px 0;
 }
 
-#om .img{
+#om .img {
     max-width: 10vw;
 }
 
@@ -104,7 +107,6 @@ p {
 
 /****************** Funktioner ********************/
 
-
 #funktioner {
     background-color: #AEBFCD;
     padding: 25px 0 0 0;
@@ -117,26 +119,39 @@ p {
 #funktioner h2 {
     text-align: center;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 @media (min-width: 991px) {
-    .container-fluid .img, [style] {
-   padding: 0px !important;
-}
-
+    .container-fluid .img,
+    [style] {
+        padding: 0px !important;
     }
+
+}
 
 @media (max-width: 991px) {
     .container-fluid [style] {
-   margin: 0 !important;
-}
+        margin: 0 !important;
     }
+}
 
+h2 {
+    text-transform: uppercase;
+}
 
+h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
 
+.container {
+    text-align: center;
+}
 
-
-
+#co-create {
+    padding: 1em;
+}
 
 /****************** Funktioner SLUT********************/
 
@@ -154,6 +169,7 @@ p {
 
 #download h2 {
     text-align: center;
+    text-transform: uppercase;
     font-weight: bold;
     padding-bottom: 20px;
 }
@@ -175,12 +191,14 @@ p {
 
 #mere_info p {
     text-align: center;
+    text-transform: uppercase;
     padding-bottom: 20px;
 }
 
 #mere_info h2 {
     text-align: center;
     font-weight: bold;
+    text-transform: uppercase;
     padding-bottom: 20px;
 }
 
@@ -193,12 +211,15 @@ p {
     background-color: #2D3562;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
     background: #AEBFCD;
 }
 
 /****************** mere info SLUT********************/
-
 
 /******************FOOTER********************/
 
@@ -213,8 +234,3 @@ footer .container-fluid p {
 }
 
 /******************FOOTER slut********************/
-
-
-
-
-

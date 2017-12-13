@@ -52,6 +52,11 @@ article header li div {
     justify-content: space-between;
 }
 
+#experience_maps h5 {
+    padding: 0.3em 3em;
+    font-size: 1.2vw;
+}
+
 #experience_maps li {
     width: 33%;
 }
@@ -64,7 +69,7 @@ article header li div {
 }
 
 #brugerundersoegelse h4 {
-    text-align: inherit;
+    text-align: left;
 }
 
 #interviews ol {
@@ -193,9 +198,8 @@ article header li div {
     padding: 0;
 }
 
-#koncept_praktik ol {
-    margin: 1em 0 1em 2em;
-    list-style-type: decimal;
+#datakodning h3 {
+    text-align: center;
 }
 
 .table_wrap {
