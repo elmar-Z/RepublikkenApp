@@ -52,6 +52,11 @@ article header li div {
     justify-content: space-between;
 }
 
+#experience_maps h5 {
+    padding: 0.3em 3em;
+    font-size: 1.2vw;
+}
+
 #experience_maps li {
     width: 33%;
 }
