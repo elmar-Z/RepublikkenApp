@@ -43,44 +43,6 @@
 article header li div {
     text-align: center;
 }
-/*
-#exp_img {
-    display: flex;
-    flex-wrap: wrap;
-
-
-}
-
-.exp_img1 {
-    flex-grow: 1;
-    background-image: url(images/experiencemap/kundens_udtalelser.jpg);
-    background-size: cover;
-    height: 100px;
-    width: 33px;
-    background-repeat: no-repeat;
-    transform: rotate(90deg);
-}
-
-.exp_img2 {
-    flex-grow: 1;
-    background-image: url(images/experiencemap/republikken_undersoegelse.jpg);
-    background-size: cover;
-    height: 100px;
-    width: 33px;
-    background-repeat: no-repeat;
-     transform: rotate(90deg);
-}
-
-.exp_img3 {
-    flex-grow: 1;
-    background-image: url(images/experiencemap/testpersoner.jpg);
-    background-size: cover;
-    height: 100px;
-    width: 33px;
-    background-repeat: no-repeat;
-     transform: rotate(90deg);
-}
-*/
 
 #experience_maps ol {
     list-style-type: none;
@@ -98,6 +60,7 @@ article header li div {
 #experience_maps li img {
     width: 100%;
     border-radius: 0.2em;
+    transform: rotate(90deg);
 }
 
 #interviews ol {
@@ -180,7 +143,28 @@ article header li div {
     margin: 0.5em 0 1em 1em;
 }
 
+#design_charette ol {
+    list-style-type: none;
+    display: flex;
+    flex-basis: 400px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
+#design_charette li {
+    width: 50%;
+}
+
+
+#design_charette li img {
+    width: 100%;
+    border-radius: 0.2em;
+}
+
+#design_charette #brainstorm_img{
+    transform: rotate(90deg);
+
+}
 
 #ide_grundlag ul {
     list-style-type: disc;
