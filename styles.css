@@ -72,7 +72,7 @@ h3 {
     padding: 0 1em;
 }
 
-#idegrundlag h4{
+#idegrundlag h4 {
     text-align: left;
 }
 
@@ -235,7 +235,6 @@ section header nav a {
     color: rgb(174, 191, 205);
 }
 
-/*
 .hr {
     height: 10px;
     width: 100%;
@@ -243,7 +242,6 @@ section header nav a {
     border-radius: 0.2em;
     margin: 1.5em auto;
 }
-*/
 
 blockquote {
     margin: 1.5em 10px;
