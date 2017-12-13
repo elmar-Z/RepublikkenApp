@@ -63,6 +63,10 @@ article header li div {
     transform: rotate(90deg);
 }
 
+#brugerundersoegelse h4{
+    text-align: inherit;
+}
+
 #interviews ol {
     list-style: decimal;
     padding: 1em;
