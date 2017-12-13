@@ -63,7 +63,7 @@ article header li div {
     transform: rotate(90deg);
 }
 
-#brugerundersoegelse h4{
+#brugerundersoegelse h4 {
     text-align: inherit;
 }
 
@@ -165,7 +165,7 @@ article header li div {
     border-radius: 0.2em;
 }
 
-#design_charette #brainstorm_img{
+#design_charette #brainstorm_img {
     transform: rotate(90deg);
 
 }
@@ -227,9 +227,7 @@ article img {
     width: 100%;
 }
 
-/*
-#storyboard img {
-    width: 80vw;
-
+iframe {
+    display: block;
+    margin: 0 auto;
 }
-*/
