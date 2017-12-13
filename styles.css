@@ -83,7 +83,11 @@ a h3 {
     font-size: 1.5em;
 }
 
-.link_ud {}
+h4 {
+    text-transform: uppercase;
+    padding: 1em 1em;
+    text-align: center;
+}
 
 
 
@@ -155,7 +159,7 @@ article {
 }
 
 article img {
-/*
+    /*
     max-width: 90%;
     min-width: 20%;
 */
